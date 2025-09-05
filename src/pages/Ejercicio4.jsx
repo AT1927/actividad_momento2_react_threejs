@@ -14,7 +14,7 @@ const Ejercicio4 = () => {
           style={{ position: "fixed", width: "100vw", height: "100vh" }}
           camera={{ position: [10, 5, 10], fov: 40 }}
         >
-          <axesHelper args={[2]} />
+          <axesHelper args={[3]} />
           <Environment preset="park" />
           <Objgrupo/>
           <OrbitControls enableRotate={true} />
